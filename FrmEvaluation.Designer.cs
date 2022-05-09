@@ -176,6 +176,7 @@
 			this.btnCancel.TabIndex = 15;
 			this.btnCancel.Text = "Odustani";
 			this.btnCancel.UseVisualStyleBackColor = true;
+			this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
 			// 
 			// FrmEvaluation
 			// 
@@ -199,6 +200,7 @@
 			this.Controls.Add(this.label1);
 			this.Name = "FrmEvaluation";
 			this.Text = "FrmEvaluation";
+			this.Load += new System.EventHandler(this.FrmEvaluation_Load);
 			((System.ComponentModel.ISupportInitialize)(this.numPoints)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
